@@ -3,10 +3,10 @@ package org.training360.finalexam.teams;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
-import org.training360.finalexam.CreatePlayerCommand;
-import org.training360.finalexam.Player;
-import org.training360.finalexam.PlayerRepository;
-import org.training360.finalexam.PositionType;
+import org.training360.finalexam.players.CreatePlayerCommand;
+import org.training360.finalexam.players.Player;
+import org.training360.finalexam.players.PlayerRepository;
+import org.training360.finalexam.players.PositionType;
 
 import java.util.List;
 import java.util.stream.Collectors;

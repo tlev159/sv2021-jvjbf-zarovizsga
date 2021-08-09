@@ -1,4 +1,4 @@
-package org.training360.finalexam;
+package org.training360.finalexam.players;
 
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;

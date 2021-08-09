@@ -1,4 +1,4 @@
-package org.training360.finalexam;
+package org.training360.finalexam.players;
 
 public enum PositionType {
 

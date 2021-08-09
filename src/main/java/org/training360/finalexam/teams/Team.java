@@ -3,7 +3,7 @@ package org.training360.finalexam.teams;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.training360.finalexam.Player;
+import org.training360.finalexam.players.Player;
 
 import javax.persistence.*;
 import java.util.List;

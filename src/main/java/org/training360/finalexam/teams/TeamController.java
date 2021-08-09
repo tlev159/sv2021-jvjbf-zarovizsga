@@ -5,7 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.training360.finalexam.CreatePlayerCommand;
+import org.training360.finalexam.players.CreatePlayerCommand;
 import org.zalando.problem.Problem;
 import org.zalando.problem.Status;
 
