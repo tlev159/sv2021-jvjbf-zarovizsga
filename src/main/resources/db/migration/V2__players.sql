@@ -1,0 +1,7 @@
+CREATE TABLE players (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    date_of_birth DATE NOT NULL,
+    team_id BIGINT,
+    CONSTRAINT fk_team_id FOREIGN KEY (team_id) REFERENCES teams (id) ON DELETE CASCADE ON UPDATE CASCADE
+);

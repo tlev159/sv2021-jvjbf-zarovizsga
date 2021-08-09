@@ -11,12 +11,12 @@
     <groupId>training360</groupId>
     <artifactId>sv2021-jvjbf-zarovizsga</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>final-exam</name>
+    <name>finalexam</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>16</java.version>
     </properties>
-        <dependencies>
+    <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -30,11 +30,11 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-            <dependency>
-                <groupId>com.h2database</groupId>
-                <artifactId>h2</artifactId>
-                <scope>test</scope>
-            </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>test</scope>
+        </dependency>
         <dependency>
             <groupId>org.modelmapper</groupId>
             <artifactId>modelmapper</artifactId>
@@ -65,6 +65,10 @@
             <groupId>org.zalando</groupId>
             <artifactId>problem-spring-web-starter</artifactId>
             <version>0.26.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
         </dependency>
     </dependencies>
 
